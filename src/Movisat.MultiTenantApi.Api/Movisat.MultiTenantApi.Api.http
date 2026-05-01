@@ -1,0 +1,16 @@
+@Movisat.MultiTenantApi.Api_HostAddress = http://localhost:5259
+
+GET {{Movisat.MultiTenantApi.Api_HostAddress}}/api/v1/acme/products?category=navigation
+Accept: application/json
+
+###
+
+GET {{Movisat.MultiTenantApi.Api_HostAddress}}/api/v3/acme/products
+Accept: application/problem+json
+
+###
+
+GET {{Movisat.MultiTenantApi.Api_HostAddress}}/api/v1/test/products
+Accept: application/problem+json
+
+###
