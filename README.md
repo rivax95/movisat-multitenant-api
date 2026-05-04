@@ -44,8 +44,6 @@ La solucion esta separada en capas:
 - `Movisat.MultiTenantApi.Api`: composicion, rutas HTTP, middleware, filtros y contratos JSON.
 - `Movisat.MultiTenantApi.Tests`: pruebas de integracion end-to-end con DB aislada por test.
 
-Documento de decisiones: [docs/DECISIONES_ARQUITECTURA.md](docs/DECISIONES_ARQUITECTURA.md).
-
 ## Reglas implementadas
 
 - `version` solo acepta `1` o `2`; cualquier otro valor enrutable devuelve `400 Bad Request`.
